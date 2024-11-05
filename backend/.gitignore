@@ -1,0 +1,127 @@
+### Ignore unnecessary files in backend and frontend
+
+# User-specific files
+appsettings.json
+appsettings.*.json
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+*.code-workspace
+
+# Build results
+obj/
+bin/
+**/[Bb]in/
+**/[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio files
+.vs/
+*.pidb
+*.svclog
+*.scc
+*.vspscc
+*.vssscc
+*.tlog
+*.log
+*.tlog
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# Visual Studio build files
+*_i.c
+*_p.c
+*_h.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Frontend dependencies
+frontend/node_modules
+
+# Frontend testing
+frontend/coverage
+
+# Frontend production build
+frontend/build
+
+# Frontend environment files
+frontend/.env
+
+# Frontend debug and error logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/yarn.lock
+frontend/package-*.json
+
+# IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+*.sln.iml
+
+# OS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+Desktop.ini
+$RECYCLE.BIN/
+Thumbs.db
+ehthumbs.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Mono auto generated files
+mono_crash.*
+
+# Ignore Migrations folder
+Migrations/
+
+# Local History for Visual Studio Code
+.history/
